@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Craigslist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="https://www.craigslist.org/about/sites">craigslist<sup>®</sup></a>
+                </div>
+        
+                <div class="search">
+                    <input type="search" placeholder="Search cragslist">
+                    <a href="#"><i class="gg-search"></i></a>
+                </div>
+        
+                <div class="header-container">
+                    <ul id="postlks">
+                        <li><a href="https://accounts.craigslist.org/login/home">my account</a></li>
+
+                        <li><a id="post" href="https://post.craigslist.org/c/nyc">create a post</a></li>
+                    </ul> 
+        
+                    <div class="language">
+                            <label for="chlang">Choose Language:</label>
+                            <select name="lang" id="chlang" class="js-only">
+                                <option value="?lang=da&amp;setlang=1">dansk</option>
+                                <option value="?lang=de&amp;setlang=1">deutsch</option>
+                                <option selected="" value="?lang=en&amp;cc=us&amp;setlang=1">english</option>
+                                <option value="?lang=es&amp;cc=mx&amp;setlang=1">español</option>
+                                <option value="?lang=fr&amp;setlang=1">français</option>
+                                <option value="?lang=it&amp;setlang=1">italiano</option>
+                                <option value="?lang=pt&amp;setlang=1">português</option>
+                                <option value="?lang=fi&amp;setlang=1">suomi</option>
+                                <option value="?lang=sv&amp;setlang=1">svenska</option>
+                                <option value="?lang=vi&amp;setlang=1">tiếng việt</option>
+                                <option value="?lang=tr&amp;setlang=1">türkçe</option>
+                                <option value="?lang=ru&amp;setlang=1">русский</option>
+                                <option value="?lang=zh&amp;setlang=1">中文</option>
+                                <option value="?lang=ja&amp;setlang=1">日本語</option>
+                                <option value="?lang=ko&amp;setlang=1">한국말</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="leftbar">
+                <div id="leftbar-content">
+                    <div class="calendar">
+                        <div class="calendar-header">
+                            <span class="month-picker" id="month-picker"> May </span>
+                            <div class="year-picker" id="year-picker">
+                                <span class="year-change" id="pre-year">
+                                    <pre><</pre>
+                                </span>
+                                <span id="year">2020 </span>
+                                <span class="year-change" id="next-year">
+                                    <pre>></pre>
+                                </span>
+                            </div>
+                        </div>
+      
+                        <div class="calendar-body">
+                            <div class="calendar-week-days">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <div class="calendar-days">
+                                <ul class="days">
+                                    <!-- Days content -->
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-01" aria-label="Event on May 1">1</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-01">1</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-02">2</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-03">3</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-04">4</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-05">5</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-06">6</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-07">7</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-08">8</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-09">9</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-10">10</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-11">11</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-12">12</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-13">13</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-14">14</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-15">15</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-16">16</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-17">17</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-18">18</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-19">19</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-20">20</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-21">21</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-22">22</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-23">23</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-24">24</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-25">25</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-26">26</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-27">27</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-28">28</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-29">29</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-30">30</a></li>
+                                    <li><a href="//newyork.craigslist.org/search/eee?sale_date=2023-05-31">31</a></li>
+                                </ul>
+                            </div>
+                            <div class="calendar-footer">
+                            </div>
+                            <div class="date-time-formate">
+                                <div class="day-text-formate">TODAY</div>
+                                <div class="date-time-value">
+                                    <div class="time-formate">02:51:20</div>
+                                    <div class="date-formate">23 - july - 2022</div>
+                                </div>
+                            </div>
+                            <div class="month-list"></div>
+                        </div>
+                    </div><br>
+      
+                    <div class="boxContainer">
+                        <div class="contentBox">
+                            <div class="location">Nearby cl</div>
+                            <div class="locations">
+                                <ul>
+                                    <li><a href="//ames.craigslist.org">Albany</a></li>
+                                    <li><a href="//ames.craigslist.org">Allentown</a></li>
+                                    <li><a href="//ames.craigslist.org">Baltimore</a></li>
+                                    <li><a href="//ames.craigslist.org">Binghamton</a></li>
+                                    <li><a href="//ames.craigslist.org">Catskills</a></li>
+                                    <li><a href="//ames.craigslist.org">Central nj</a></li>
+                                    <li><a href="//ames.craigslist.org">Delaware</a></li>
+                                    <li><a href="//ames.craigslist.org">Eastern ct</a></li>
+                                    <li><a href="//ames.craigslist.org">Eastern shore</a></li>
+                                    <li><a href="//ames.craigslist.org">Harrisburg</a></li>
+                                    <li><a href="//ames.craigslist.org">Hartford</a></li>
+                                    <li><a href="//ames.craigslist.org">Hudson valley</a></li>
+                                    <li><a href="//ames.craigslist.org">Jersey shore</a></li>
+                                    <li><a href="//ames.craigslist.org">Lancaster</a></li>
+                                    <li><a href="//ames.craigslist.org">Long island</a></li>
+                                    <li><a href="//ames.craigslist.org">New haven</a></li>
+                                    <li><a href="//ames.craigslist.org">North jersey</a></li>
+                                    <li><a href="//ames.craigslist.org">Northwest ct</a></li>
+                                    <li><a href="//ames.craigslist.org">Oneonta</a></li>
+                                    <li><a href="//ames.craigslist.org">Philadelphia</a></li>
+                                    <li><a href="//ames.craigslist.org">Poconos</a></li>
+                                    <li><a href="//ames.craigslist.org">Reading</a></li>
+                                    <li><a href="//ames.craigslist.org">Rhode island</a></li>
+                                    <li><a href="//ames.craigslist.org">Scranton</a></li>
+                                    <li><a href="//ames.craigslist.org">South coast</a></li>
+                                    <li><a href="//ames.craigslist.org">South jersey</a></li>
+                                    <li><a href="//ames.craigslist.org">Western mass</a></li>
+                                    <li><a href="//ames.craigslist.org">Williamsport</a></li>
+                                    <li><a href="//ames.craigslist.org">Worcester</a></li>
+                                    <li><a href="//ames.craigslist.org">York</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contentBox">
+                            <div class="location">US Cities</div>
+                            <div class="locations">
+                                <ul>
+                                    <li><a href="//atlanta.craigslist.org">Atlanta</a></li>
+                                    <li><a href="//austin.craigslist.org">Austin</a></li>
+                                    <li><a href="//boston.craigslist.org">Boston</a></li>
+                                    <li><a href="//chicago.craigslist.org">Chicago</a></li>
+                                    <li><a href="//dallas.craigslist.org">Dallas</a></li>
+                                    <li><a href="//denver.craigslist.org">Denver</a></li>
+                                    <li><a href="//detroit.craigslist.org">Detroit</a></li>
+                                    <li><a href="//ames.craigslist.org">Houston</a></li>
+                                    <li><a href="//ames.craigslist.org">Las Vegas</a></li>
+                                    <li><a href="//ames.craigslist.org">Los Angeles</a></li>
+                                    <li><a href="//ames.craigslist.org">Miami</a></li>
+                                    <li><a href="//ames.craigslist.org">Minneapolis</a></li>
+                                    <li><a href="//ames.craigslist.org">New York</a></li>
+                                    <li><a href="//ames.craigslist.org">Orange Co</a></li>
+                                    <li><a href="//ames.craigslist.org">Philadelphia</a></li>
+                                    <li><a href="//ames.craigslist.org">Phoenix</a></li>
+                                    <li><a href="//ames.craigslist.org">Portland</a></li>
+                                    <li><a href="//ames.craigslist.org">Raleigh</a></li>
+                                    <li><a href="//ames.craigslist.org">Sacramento</a></li>
+                                    <li><a href="//ames.craigslist.org">San diego</a></li>
+                                    <li><a href="//ames.craigslist.org">Seattle</a></li>
+                                    <li><a href="//ames.craigslist.org">Sf bayarea</a></li>
+                                    <li><a href="//ames.craigslist.org">Washington DC</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contentBox">
+                            <div class="location">US States</div>
+                            <div class="locations flexLocations">
+                                <ul>
+                                    <li><a href="//ames.craigslist.org">Alabama</a></li>
+                                    <li><a href="//ames.craigslist.org">Alaska</a></li>
+                                    <li><a href="//ames.craigslist.org">Arizona</a></li>
+                                    <li><a href="//ames.craigslist.org">Arkansas</a></li>
+                                    <li><a href="//ames.craigslist.org">California</a></li>
+                                    <li><a href="//ames.craigslist.org">Colorado</a></li>
+                                    <li><a href="//ames.craigslist.org">Connecticut</a></li>
+                                    <li><a href="//ames.craigslist.org">DC</a></li>
+                                    <li><a href="//ames.craigslist.org">Delaware</a></li>
+                                    <li><a href="//ames.craigslist.org">Florida</a></li>
+                                    <li><a href="//ames.craigslist.org">Georgia</a></li>
+                                    <li><a href="//ames.craigslist.org">Guam</a></li>
+                                    <li><a href="//ames.craigslist.org">Hawaii</a></li>
+                                    <li><a href="//ames.craigslist.org">Idaho</a></li>
+                                    <li><a href="//ames.craigslist.org">Illinois</a></li>
+                                    <li><a href="//ames.craigslist.org">Indiana</a></li>
+                                    <li><a href="//ames.craigslist.org">Iowa</a></li>
+                                    <li><a href="//ames.craigslist.org">Kansas</a></li>
+                                    <li><a href="//ames.craigslist.org">Kentucky</a></li>
+                                    <li><a href="//ames.craigslist.org">Louisiana</a></li>
+                                    <li><a href="//ames.craigslist.org">Maine</a></li>
+                                    <li><a href="//ames.craigslist.org">Maryland</a></li>
+                                    <li><a href="//ames.craigslist.org">Mass</a></li>
+                                    <li><a href="//ames.craigslist.org">Michigan</a></li>
+                                    <li><a href="//ames.craigslist.org">Minnesota</a></li>
+                                    <li><a href="//ames.craigslist.org">Mississippi</a></li>
+                                    <li><a href="//ames.craigslist.org">Missouri</a></li>
+                                    <li><a href="//ames.craigslist.org">Montana</a></li>
+                                    <li><a href="//ames.craigslist.org">North Calorina</a></li>
+                                    <li><a href="//ames.craigslist.org">Nebraska</a></li>
+                                    <li><a href="//ames.craigslist.org">Nevada</a></li>
+                                    <li><a href="//ames.craigslist.org">New Jersey</a></li>
+                                    <li><a href="//ames.craigslist.org">New Mexico</a></li>
+                                    <li><a href="//ames.craigslist.org">New York</a></li>
+                                    <li><a href="//ames.craigslist.org">N Hampshire</a></li>
+                                    <li><a href="//ames.craigslist.org">North Dakota</a></li>
+                                    <li><a href="//ames.craigslist.org">Ohio</a></li>
+                                    <li><a href="//ames.craigslist.org">Oklahoma</a></li>
+                                    <li><a href="//ames.craigslist.org">Oregon</a></li>
+                                    <li><a href="//ames.craigslist.org">Pennsylvania</a></li>
+                                    <li><a href="//ames.craigslist.org">Puerto Rico</a></li>
+                                    <li><a href="//ames.craigslist.org">Rhode Island</a></li>
+                                    <li><a href="//ames.craigslist.org">South Carolina</a></li>
+                                    <li><a href="//ames.craigslist.org">South Dakota</a></li>
+                                    <li><a href="//ames.craigslist.org">Tennessee</a></li>
+                                    <li><a href="//ames.craigslist.org">Texas</a></li>
+                                    <li><a href="//ames.craigslist.org">Utah</a></li>
+                                    <li><a href="//ames.craigslist.org">Vermort</a></li>
+                                    <li><a href="//ames.craigslist.org">Vermort</a></li>
+                                    <li><a href="//ames.craigslist.org">Virginia</a></li>
+                                    <li><a href="//ames.craigslist.org">Washington</a></li>
+                                    <li><a href="//ames.craigslist.org">West Virginia</a></li>
+                                    <li><a href="//ames.craigslist.org">Wisconsin</a></li>
+                                    <li><a href="//ames.craigslist.org">Wyoming</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="contentBox">
+                            <div class="location">Canada</div>
+                            <div class="locations">
+                                <ul>
+                                    <li><a href="//ames.craigslist.org">Calgary</a></li>
+                                    <li><a href="//ames.craigslist.org">Edmonton</a></li>
+                                    <li><a href="//ames.craigslist.org">Halifax</a></li>
+                                    <li><a href="//ames.craigslist.org">Montreal</a></li>
+                                    <li><a href="//ames.craigslist.org">Ottawa</a></li>
+                                    <li><a href="//ames.craigslist.org">Saskatoon</a></li>
+                                    <li><a href="//ames.craigslist.org">Toronto</a></li>
+                                    <li><a href="//ames.craigslist.org">Vancouver</a></li>
+                                    <li><a href="//ames.craigslist.org">Victoria</a></li>
+                                    <li><a href="//ames.craigslist.org">Winnipeg</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contentBox">
+                            <div class="location">CL Worldwide</div>
+                            <div class="locations">
+                                <ul>
+                                    <li><a href="//ames.craigslist.org">Africa</a></li>
+                                    <li><a href="//ames.craigslist.org">Americas</a></li>
+                                    <li><a href="//ames.craigslist.org">Asia</a></li>
+                                    <li><a href="//ames.craigslist.org">Europe</a></li>
+                                    <li><a href="//ames.craigslist.org">Middle East</a></li>
+                                    <li><a href="//ames.craigslist.org">Oceania</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+      
+                    <div class="list-container">
+                      <ul class="leftlinks" id="user_resources">
+                        <!-- User Resources content -->
+                        <li><a href="https://www.craigslist.org/about/craigslist_app"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">craigslist-appen</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/help/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">hjelp, faq, misbruk, juridisk</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/scams"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">unngå svindel og svindel</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/safety"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">personlige sikkerhetstips</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/terms.of.use"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vilkår for bruk</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/privacy.policy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">personvernerklæring</font></font></a></li>
+                        <li><a href="https://www.craigslist.org/about/help/system-status"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">system status</font></font></a></li>
+                    </ul>
+                    </div>
+      
+                  <div class="list-container">
+                    <ul class="leftlinks" id="about_craigslist">
+                      <!-- About Craigslist content -->
+                      <li><a href="https://www.craigslist.org/about/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">om craigslist</font></font></a></li>
+                      <li><a href="https://www.craigslist.org/about/craigslist_is_hiring"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">craigslist ansetter</font></font></a></li>
+                      <li><a href="https://www.craigslist.org/about/open_source"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">craigslist åpen kildekode</font></font></a></li>
+                      <li><a href="http://blog.craigslist.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Craigslist-bloggen</font></font></a></li>
+                      <li><a href="https://www.craigslist.org/about/best/all/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">best-of-craigs-listen</font></font></a></li>
+                      <li><a href="http://www.craigslistjoe.com/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"craigslist joe"</font></font></a></li>
+                      <li><a href="https://craignewmarkphilanthropies.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">craig newmark </font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">filantropier</font></font></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </section>
+            
+            <section class="main-content">
+                <!-- Add your main content here -->
+                <div class="categories">
+                    <div class="cat">
+                        <div class="category community">
+                            <h1>Community</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Activities</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Artists</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Childcare</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Classes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Classes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Events</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">General</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Groups</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Local News</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Activities</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Artists</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Childcare</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Classes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Classes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Events</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">General</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Groups</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Local News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="category services">
+                            <h1>Services</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Automotive</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Beauty</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cell / Mobile</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Computer</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Creative</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cycle</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Event</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Farm + Graden</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Financial</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Health / Well</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Household</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Labor / Move</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Legal</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Lessons</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Marine</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Pet</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Real Estate</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Skilled trade</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Sm biz ads</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">travel / Vac</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Write / Ed / Tran</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="category discussion">
+                            <h1>Discussion Forums</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Apple</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Arts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Atheist</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Autos</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Beauty</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Bikes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Celebs</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Comp</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cosmos</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Diet</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Divorce</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Dying</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Eco</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Feedback</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Film</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Fixit</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Food</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Frugal</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Gaming</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Garden</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Haiku</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Help</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">History</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Housing</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Jobs</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Jokes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Legal</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Manners</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Marriage</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Money</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Music</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Open</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Parent</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Pets</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Philos</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Photo</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Politics</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Psych</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Recover</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Religion</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Rofo</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Science</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Spirit</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Sports</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Super</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Tax</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Travel</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Tv</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Vegan</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Words</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Writing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cat">
+                        <div class="category housing">
+                            <h1>Housing</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="">Apts</a></li>
+                                    <li><a href="">Housing swap</a></li>
+                                    <li><a href="">Housing wanted</a></li>
+                                    <li><a href="">Office / Commercial</a></li>
+                                    <li><a href="">Parking / Storage</a></li>
+                                    <li><a href="">Real estate for sale</a></li>
+                                    <li><a href="">Rooms / Shared</a></li>
+                                    <li><a href="">Rooms wanted</a></li>
+                                    <li><a href="">Sublets / Temporary</a></li>
+                                    <li><a href="">Vacation rentals</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="category for sale">
+                            <h1>For sale</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Antiques</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Appliances</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Arts + Crafts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Atv/utv/sno</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Auto Parts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Aviation</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Baby + kid</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Barter</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Beauty + health</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Bike parts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Bikes</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Boat parts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Boats</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Books</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Business</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cars + trucks</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cds/dvd/vhs</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Cell phones</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Clothes + acc</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Collectibles</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Computer parts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Computers</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Electronics</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Farm + garden</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Free</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Furniture</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Garage sale</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">General</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Heavy equip</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Household</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Jewelery</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Materials</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Motorcycle parts</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Motorcycles</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Music instruments</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Photo + video</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Rvs + camp</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Sporting</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Tickets</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Tools</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Toys + games</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Trailers</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Video gaming</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Wanted</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Wheels + tires</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="cat">
+                        <div class="category jobs">
+                            <h1>Jobs</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Accounting + Finance</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Admin / Office</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Arch / Engineering</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Art / Media / Design</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Biotech / Science</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Business / Management</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Customer Service</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Education</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Etc / Misc</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Food / Bev / Hosp</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">General labor</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Government</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Human resources</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Legal / paralegal</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Manufacturing</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Marketing / Pr / Ads</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Medical / Health</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Nonprofit sector</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Real estate</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Retail / wholesale</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Sales / Biz dev</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Salon / Spa / Fitness</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Security</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Skilled trade / Craft</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Software / Qa / Dba</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Systems / Network</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Technical support</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Transport</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Tv / Film / Video</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Web / Info design</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Writing / Editing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="category gigs">
+                            <h1>Gigs</h1>
+                            <div class="catList">
+                                <ul>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Computer</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Creative</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Crew</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Domestic</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Event</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Labor</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Talent</a></li>
+                                    <li><a href="https://forums.craigslist.org/?areaID=19&amp;forumID=22">Writing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </section>
+
+            <script src="scripts.js"></script>  
+        </main>
+        
+        <footer>
+            <div class="clfooter">
+              <!-- Footer content -->
+              <div class="footer-logo">© 2023 <span class="desktop">craigslist</span><span class="mobile">CL</span></div>
+              <ul class="footer-links">
+                <li><a href="https://www.craigslist.org/about/help/">hjelp</a></li>
+                <li><a href="https://www.craigslist.org/about/scams">sikkerhet</a></li>
+                <li><a href="https://www.craigslist.org/about/privacy.policy">personvern</a></li>
+                <li><a href="https://forums.craigslist.org/?forumID=8">tilbakemelding</a></li>
+                <li><a href="https://www.craigslist.org/about/terms.of.use">vilkår</a></li>
+                <li><a href="https://www.craigslist.org/about/">Om</a></li>
+                <li><a href="https://www.craigslist.org/about/craigslist_app">craigslist-appen</a></li>
+                <li><a href="https://www.craigslist.org/about/craigslist_is_hiring">cl ansetter</a></li>
+                <li><a href="https://newyork.craigslist.org/sitemap.html">nettstedskart</a></li>
+              </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
